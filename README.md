@@ -1,4 +1,4 @@
-# mynto-no
+# Mynto
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mynto-no is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mynto.no/
+Mynto provides automated accounting software that connects to banks, books transactions, sends invoices, and manages VAT and deadlines. The platform offers integrations, pricing plans, a developer portal, and a partner program, aiming to let businesses run their bookkeeping without manual effort. It supports PSD2 bank connections, double‑entry bookkeeping, and compliance with Norwegian tax regulations, offering a free trial and detailed documentation for developers.
+
+**Areas:** Company · Accounting · Automation · Finance · SaaS · Norway
+
+## Mynto on APIs.io
+
+Everything profiled for Mynto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mynto-no/](https://apis.io/providers/mynto-no/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Mynto Bank API](https://apis.io/apis/mynto-no/mynto-no-bank-api/) — The Bank API from Mynto — 1 operation(s) for bank.
+- [Mynto Invoicing API](https://apis.io/apis/mynto-no/mynto-no-invoicing-api/) — The Invoicing API from Mynto — 3 operation(s) for invoicing.
+- [Mynto Ledger API](https://apis.io/apis/mynto-no/mynto-no-ledger-api/) — The Ledger API from Mynto — 3 operation(s) for ledger.
+- [Mynto Webhooks API](https://apis.io/apis/mynto-no/mynto-no-webhooks-api/) — The Webhooks API from Mynto — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mynto Agentic Access](https://apis.io/agentic-access/mynto-no/mynto-no-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BankTransaction is a transaction as fetched from the company''s bank.](https://apis.io/schemas/mynto-no/mynto-no-publicapi-bank-transaction/)
+- [publicapi.CreateInvoiceLine](https://apis.io/schemas/mynto-no/mynto-no-publicapi-create-invoice-line/)
+- [publicapi.Invoice](https://apis.io/schemas/mynto-no/mynto-no-publicapi-invoice/)
+- [JournalEntry is a bilag: a posted (or draft) accounting entry.](https://apis.io/schemas/mynto-no/mynto-no-publicapi-journal-entry/)
+- [Delivery is one attempt to deliver one event, as shown in the log.](https://apis.io/schemas/mynto-no/mynto-no-webhooks-delivery/)
+- [webhooks.Subscription](https://apis.io/schemas/mynto-no/mynto-no-webhooks-subscription/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mynto No Context](https://apis.io/jsonld/mynto-no/mynto-no-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Mynto API Rules](https://apis.io/rules/mynto-no/mynto-no-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mynto Authentication](https://apis.io/security/mynto-no/mynto-no-authentication/)
+- [Mynto Domain Security](https://apis.io/security/mynto-no/mynto-no-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.mynto.no/en/)
+- [Documentation](https://www.mynto.no/en/docs)
+- [Pricing](https://www.mynto.no/en/pricing)
+- [Changelog](https://www.mynto.no/changelog)
+- [Security](https://www.mynto.no/en/security)
+- [Terms of service](https://www.mynto.no/en/terms)
+- [Privacy policy](https://www.mynto.no/en/privacy)
+- [Status](https://status.mynto.no)
+
+## API Evangelist rating
+
+**Kin Score 51.6** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 53.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 38.1 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 36.2 |
+
+**Agent readiness 46.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mynto-no/](https://apis.io/providers/mynto-no/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mynto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mynto-no/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
